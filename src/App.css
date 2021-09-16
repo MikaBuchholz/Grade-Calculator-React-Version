@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400&display=swap');
+
+.inputForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 12em;
+  gap: 1.7em;
+}
+
+.applyFont {
+  font-family: 'Tajawal';
+}
+
+.displayStatus {
+  display: flex;
+  justify-content: center;
+  font-size: clamp(0.8em, 1em, 2em);
+  font-family: 'Tajawal';
+}
+
+.displayContainer {
+  margin-top: 5rem;
+  display: inline-block flex;
+  justify-content: center;
+}
+
+.gridContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1.6em;
+  width: 40%;
+  font-family: 'Tajawal';
+}
+
+.gridItem {
+  background-color: #3f51b5;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  padding-right: 0.7em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.7em;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.clearButton {
+  margin: 0;
+}
+
+.buttonDiv {
+  position: absolute;
+  bottom: 0.8rem;
+  right: 0.8em;
+}
+
